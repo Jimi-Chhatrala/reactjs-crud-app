@@ -28,7 +28,7 @@ function Edit() {
       })
       .then((response) => {
         alert(`Data with id ${id} is Updated.`);
-        navigate("/");
+        navigate("/reactjs-crud-app/");
       })
       .catch((error) => {
         alert(`Data Updation Failed.`);

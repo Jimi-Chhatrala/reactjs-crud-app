@@ -21,7 +21,7 @@ function Create() {
     })
       .then((response) => {
         alert("Data Submitted");
-        navigate("/");
+        navigate("/reactjs-crud-app/");
         console.log(response);
       })
       .catch((error) => {
@@ -35,7 +35,7 @@ function Create() {
       <div className="row">
         <div className="col-md-4">
           <div className="mb-2 mt-2">
-            <Link to="/">
+            <Link to="/reactjs-crud-app/">
               <button className="btn btn-primary">Read Data</button>
             </Link>
           </div>
