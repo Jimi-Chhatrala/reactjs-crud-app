@@ -1,6 +1,6 @@
 {
   "homepage": "https://jimi-chhatrala.github.io/reactjs-crud-app",
-  "name": "crud-app",
+  "name": "reactjs-crud-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
